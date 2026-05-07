@@ -18,6 +18,11 @@
 \maketitle
 \dedication{}
 \begin{abstract}
+L'anticipazione di azioni umane (\textit{action anticipation}) è uno dei task più sfidanti nella comprensione video poiché richiede di prevedere un evento futuro ancor prima che esso abbia avuto inizio, sfruttando esclusivamente il contesto osservato. Le applicazioni spaziano dalla robotica collaborativa ai sistemi di assistenza alla guida, dalla realtà aumentata alla videosorveglianza.
+
+Nonostante i progressi significativi registrati nell'ultimo decennio, la letteratura è caratterizzata da una frammentazione metodologica che rende difficile il confronto equo tra modelli: protocolli eterogenei, finestre di osservazione non documentate e confusione tra paradigmi di task distinti compromettono la validità dei confronti quantitativi.
+
+Il presente elaborato affronta questa problematica attraverso un benchmarking comparativo della letteratura, con l'obiettivo di rendere i confronti fra modelli più equi e metodologicamente fondati. A partire da una raccolta sistematica dei principali modelli proposti in letteratura, vengono costruiti gruppi di confronto omogenei e analizzati criticamente i fattori che maggiormente influenzano le prestazioni: la scelta delle modalità di input, l'architettura e la strategia di addestramento.
 
 \end{abstract}
 
@@ -30,19 +35,21 @@
 \input{3_benchmarking_comparativo}
 \input{4_conclusioni}
 
-\backmatter
+
 \bibliographystyle{abbrv}
 \bibliography{bibliografia}
-\appendix
 
-\chapter{Appendice A}
+
+\appendix
+\chapter{Tabella dei confronti qualitativi}
 \label{appendix:a}
 \begin{landscape}
-    \begin{figure}[p]
+    \begin{figure}
         \centering
         \includegraphics[width=0.8\linewidth]{appendici/appendice_foglio1.pdf}
         \caption{Tabella dei confronti qualitativi}
-        \label{fig:appendice-a}
     \end{figure}
 \end{landscape}
+
+\chapter*{Ringraziamenti}
 \end{document}
